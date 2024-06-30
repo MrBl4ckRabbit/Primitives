@@ -34,9 +34,10 @@ public class Solution {
         ///////////////////////////////////////////////////////////////////////////////////////////////
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String nick = reader.readLine();
-        String tim = reader.readLine();
-        System.out.println("" + nick + " захватит мир через" + " " + tim + " лет. Му-ха-ха!");
+        String name = reader.readLine();
+        String year = reader.readLine();
+       // int year = Integer.parseInt(reader.readLine());
+        System.out.println("" + name + " захватит мир через" + " " + year + " лет. Му-ха-ха!");
 
     }
 }
